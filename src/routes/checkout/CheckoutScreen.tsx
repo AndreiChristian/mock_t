@@ -31,7 +31,7 @@ export default function CheckoutScreen() {
       <Textarea placeholder="Andrei" className=" border-card-foreground my-2" ></Textarea>
     </CustomCard>
     <CustomCard type="secondary" >
-      <Button variant="ghost" className="text-5xl" >Plaseaza comanda</Button>
+      <Button variant="ghost" className="text-xl lg:text-5xl" >Plaseaza comanda</Button>
     </CustomCard>
   </section>
 }

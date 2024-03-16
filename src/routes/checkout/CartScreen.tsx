@@ -18,12 +18,12 @@ export default function CartScreen() {
       <div className="flex flex-row justify-between " >
         <CustomCard  >
           <div className="h-full flex flex-col items-center gap-2" >
-            <Title text="Total" />
-            <Title text="385" />
+            <h1 className="text-2xl" >Total</h1>
+            <h1 className="text-2xl" >Total</h1>
           </div>
         </CustomCard>
         <CustomCard cancelMarginRight={true} type="primary" >
-          <Link to={"/checkout"} >
+          <Link className="text-2xl" to={"/checkout"} >
             Continua
           </Link>
         </CustomCard>

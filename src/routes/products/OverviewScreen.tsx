@@ -12,10 +12,10 @@ export default function OverviewScreen() {
         </CustomCard>
         <div className="box-border flex w-full justify-evenly" >
           <CustomCard type="primary"  >
-            <a href="#restaurant" className="text-xl hover:underline transition duration-300" > Produse din meniul restaurantului</a>
+            <a href="#restaurant" className="text-md hover:underline transition duration-300" > Produse din meniul restaurantului</a>
           </CustomCard>
           <CustomCard cancelMarginRight={true} type="primary" >
-            <a href="#livrare" className="text-xl hover:underline transition duration-300">Produse speciale pentru livrare</a>
+            <a href="#livrare" className="text-md hover:underline transition duration-300">Produse speciale pentru livrare</a>
           </CustomCard>
         </div>
       </section>

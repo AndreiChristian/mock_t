@@ -3,7 +3,7 @@ import CustomCard from "@/components/custom/CustomCard";
 export default function HeroSection() {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-2" >
+      <div className="grid grig-col-1 lg:grid-cols-2 gap-2" >
         <CustomCard type="primary" ><h1 className="text-5xl lg:text-7xl font-grange" >Taverna Drobeta</h1></CustomCard>
         <CustomCard paddingSize={0} cancelMarginRight={true} ><img src="/images/locatie/TS(68).jpg" className="rounded-xl" /></CustomCard>
       </div>
