@@ -7,20 +7,20 @@ export default function OverviewScreen() {
   return (
     <>
       <section className={`mx-${constants.paddingSize}`} >
-        <CustomCard>
+        <CustomCard type="ghost" >
           <Title text="Produsele noastre" />
         </CustomCard>
-        <div className="box-border flex w-full justify-evenly" >
+        <div className="box-border grid grid-cols-1 md:grid-cols-2 gap-2  " >
           <CustomCard type="primary"  >
-            <a href="#restaurant" className="text-md hover:underline transition duration-300" > Produse din meniul restaurantului</a>
+            <a href="#restaurant" className="text-lg hover:underline transition duration-300" > Din meniul restaurantului</a>
           </CustomCard>
           <CustomCard cancelMarginRight={true} type="primary" >
-            <a href="#livrare" className="text-md hover:underline transition duration-300">Produse speciale pentru livrare</a>
+            <a href="#livrare" className="text-lg hover:underline transition duration-300">Speciale pentru livrare</a>
           </CustomCard>
         </div>
       </section>
       <div className={`mx-${constants.paddingSize}`}>
-        <CustomCard type="secondary" >
+        <CustomCard type="ghost" >
           <Title text="Restaurant" ></Title>
         </CustomCard>
       </div>

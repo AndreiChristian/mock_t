@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function CartScreen() {
   return (
     <section className={`box-border px-${constants.paddingSize}`} >
-      <CustomCard type="primary"  >
+      <CustomCard type="ghost"  >
         <Title text="Cos" ></Title>
       </CustomCard>
       <CartItem />

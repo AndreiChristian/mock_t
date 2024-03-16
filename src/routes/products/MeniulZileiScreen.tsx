@@ -6,7 +6,7 @@ import { Label } from "@radix-ui/react-label";
 export default function MeniulZileiScreen() {
   return (
     <section className={`px-10`}>
-      <CustomCard>
+      <CustomCard type="ghost" >
         <Title text="Meniul Zilei" />
       </CustomCard>
       <div className="flex flex-col lg:flex-row " >
