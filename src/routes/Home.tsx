@@ -5,7 +5,7 @@ import CarouselSection from "@/sections/CarouselSection";
 import HeroSection from "@/sections/HeroSection";
 
 export default function HomeRoute() {
-  return <section className={`mx-${constants.paddingSize}`} >
+  return <section className={`box-border mx-auto px-${constants.paddingSize} overflow-hidden `} >
     <HeroSection />
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-2" >
       <CarouselSection />

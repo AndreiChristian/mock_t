@@ -25,6 +25,8 @@ export function Drawer({ isDrawerOpen, closeDrawer, setIsDrawerOpen }: Props) {
         <MobileLink closeDrawer={() => setIsDrawerOpen(false)} href='/galerie' text='Galerie' />
         <MobileLink closeDrawer={() => setIsDrawerOpen(false)} href='/preturi' text='Preturi' />
         <MobileLink closeDrawer={() => setIsDrawerOpen(false)} href='/contact' text='Contact' />
+        <MobileLink closeDrawer={() => setIsDrawerOpen(false)} href='/produse/produs/9' text='DemoProdus' />
+        <MobileLink closeDrawer={() => setIsDrawerOpen(false)} href='/produse/meniul-zilei' text='DemoMeniulZilei' />
         <span className="flex-1"></span>
         <span className="self-center" >
           <ModeToggle />
